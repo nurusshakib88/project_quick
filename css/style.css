@@ -1,0 +1,200 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/*header start*/
+header {
+	padding: 10px 0;
+	border-bottom: 0.5px solid lightgrey;
+}
+
+.wrapper {
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	width: 8%;
+}
+
+.logo img {
+	width: 100%;
+	margin-top: 8px;
+}
+
+.menu {
+	float: right;
+	width: 50%;
+}
+
+.menu ul {
+	float: right;
+}
+
+.menu ul li {
+	float: left;
+	list-style: none;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	margin: 0 45px;
+	display: inline-block;
+	color: #0E2555;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+
+.menu ul li a:hover {
+	color: #0082FF;
+}
+
+.menu ul li a:last-child {
+	margin-right: 0;
+}
+
+/*header end*/
+
+
+
+/*banner start*/
+
+.banner {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.mainline {
+	margin: 45px 0 0;
+	text-align: center;
+	font-size: 62px;
+}
+
+.tagline {
+	margin: 10px 0 0;
+	text-align: center;
+	font-size: 62px;
+}
+.tagline_2 {
+	margin: 20px 0 0;
+	text-align: center;
+	font-size: 18px;
+	
+}
+
+.navy {
+	color: #0E2555;
+}
+	
+.blue {
+	color: #0082FF ;
+}
+
+.image2 {
+	width: 50%;
+	margin: 0 auto;
+}
+.image2 img {
+	width: 100%;
+	margin: 50px 0;
+	
+}
+
+.container{
+	overflow: hidden;
+}
+
+.box_1{
+	float: left;
+	width: 50%;	
+}
+
+.content{
+	text-align: right;
+}
+
+.box_1 h4 {
+	margin-top: 0;
+}
+
+.red {
+	margin-bottom: 0;
+	color: #F15767;
+}
+.box_2{
+	float: right;
+	width: 47%;
+}
+
+.box_2 h1 {
+	margin-bottom: 1px;
+}
+
+
+/*blog start*/
+
+.box{
+	overflow: hidden;
+	width: 95%;
+	margin: 0 auto;
+	padding: 80px 10px;
+	
+}
+
+.blog {
+	float: left;
+	width: 24%;
+	margin-right: 58px;
+	padding: 50px 40px;
+}
+
+.blog:hover {
+	box-shadow: 2px 5px 12px grey;
+}
+
+.first{
+	background-color: #FDEBED;
+}
+.second{
+	background-color: #EBF9F4;
+}
+.third{
+	margin-right: 0;
+	background-color: #FFF7E8;
+
+}
+
+.blog img {
+	width: 100%;
+}
+
+.blog p{
+	margin-right: 5px;
+
+}
+
+/*blog end*/
+
+
+/*footer start*/
+
+footer {
+	min-height: 60px;
+	background-color: #0082FF;
+	padding: 20px 0;
+}
+
+footer p {
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+
+.ledp {
+	font-size: 20px;
+}
+
+/*footer end*/
