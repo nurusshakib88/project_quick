@@ -171,9 +171,13 @@ header {
 	width: 100%;
 }
 
+.blog h2{
+	color: #0E2555;
+}
+
 .blog p{
 	margin-right: 5px;
-
+	color: #0E2555;
 }
 
 /*blog end*/
